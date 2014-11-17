@@ -77,10 +77,6 @@ _begintime = diag_tickTime;
 						//check what type of loot to spawn, get chance for loot every time, so all combos in spawnClassChance_list are viable
 						_lootType = [[1,2,3,4,5], spawnClassChance_list select _lootClass] call fn_selectRandomWeighted;
 
-						if (isNil "_lootType") exitWith {};
-
-						_lootholder = objNull;
-
 						if (_lootType < 5) then
 						{
 							_lootholder = createVehicle ["GroundWeaponHolder", _tmpPos, [], 0, "CAN_COLLIDE"];
@@ -153,7 +149,7 @@ _begintime = diag_tickTime;
 								if(_loot == "Land_BottlePlastic_V2_F") then {
 									_lootholder setVariable["mf_item_id", "water", true];
 								};
-								if(_loot == "Land_Suitcase_F") then {
+								if(_loot == "Land_Tyre_F") then {
 									_lootholder setVariable["mf_item_id", "repairkit", true];
 								};
 								//if container clear its cargo

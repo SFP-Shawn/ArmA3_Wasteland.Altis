@@ -6,32 +6,27 @@
 
 #define HORDE_JUMPMF_SLOWING_MULTIPLIER 0.75
 
-private ["_pressedKey", "_handled", "_move", "_moveM", "_moveP"];
+private ["_pressedKey", "_handled"];
 _pressedKey = _this select 1;
 _handled = false;
 
 if (_pressedKey in actionKeys "GetOver") then
 {
-	if (horde_jumpmf_var_jumping) exitWith
+	if (horde_jumpmf_var_jumping) then
 	{
 		_handled = true;
-	};
-
-	if (vehicle player == player) then
+	}
+	else
 	{
-		_move = animationState player;
-		_moveM = toLower (_move select [8,4]);
-		_moveP = toLower (_move select [4,4]);
-
-		if (_moveM in ["mrun","meva"] && _moveP in ["perc","pknl"] && getFatigue player < 0.6 && isTouchingGround player) then
+		if (vehicle player == player && {stance player == "STAND"} && {getFatigue player < 0.6} && {isTouchingGround player} && {[["Mrun","Meva"], animationState player] call fn_findString == 8}) then
 		{
 			horde_jumpmf_var_jumping = true;
 
-			_move spawn
+			[] spawn
 			{
 				private ["_prevMove", "_prevVel", "_fatigue", "_load"];
 
-				_prevMove = _this;
+				_prevMove = animationState player;
 				_prevVel = velocity player;
 				_fatigue = getFatigue player;
 				_load = loadAbs player;
@@ -47,7 +42,7 @@ if (_pressedKey in actionKeys "GetOver") then
 						(_prevVel select 1) * HORDE_JUMPMF_SLOWING_MULTIPLIER,
 						((velocity player) select 2) min 1
 					];
-					(animationState player != "AovrPercMrunSrasWrflDf")
+					!(["AovrPercMrun", animationState player] call fn_startsWith)
 				};
 
 				[player, _prevMove] call switchMoveGlobal;

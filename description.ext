@@ -21,13 +21,13 @@ class Header
 	minPlayers=1;
 	maxPlayers=145; // 144 players, 1 headless client
 };
-author="AgentRev - A3Wasteland.com"; // it would be if you could keep "A3Wasteland.com" in the name, like "YourName and A3Wasteland.com" :)
-onLoadName = "A3Wasteland Altis"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
-onLoadMission = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewText = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewTextLocked = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewPicture = "mapConfig\Loading.jpg";
-loadScreen = "mapConfig\Loading.jpg";
+author="Shawn - SFP Team";
+onLoadName = "Wasteland Revolution"; 
+onLoadMission = "Wasteland est une mission ou la survie est a son meilleur niveau! N'oubliez pas que ce jeu est en constante evolution.";
+overviewText = "Wasteland est une mission ou la survie est a son meilleur niveau! N'oubliez pas que ce jeu est en constante evolution.";
+overviewTextLocked = "Wasteland est une mission ou la survie est a son meilleur niveau! N'oubliez pas que ce jeu est en constante evolution.";
+overviewPicture = "Wasteland.paa";
+loadScreen = "Wasteland.jpg";
 
 //Dialog includes
 
@@ -73,4 +73,18 @@ class CfgFunctions
 class CfgNotifications
 {
 	#include "client\CfgNotifications.hpp"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class Intro
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "Intro";
+		// filename, volume, pitch
+		sound[] = {"client\sounds\intro.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, "*****Intro by SFP*****"};
+	};
 };

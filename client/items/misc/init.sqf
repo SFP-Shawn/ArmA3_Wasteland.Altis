@@ -17,8 +17,8 @@ MF_ITEMS_REPAIR_KIT_RANGE = 5;
 
 MF_ITEMS_REPAIR_KIT = "repairkit";
 _repair = [_path, "repair.sqf"] call mf_compile;
-_icon = "client\icons\repair.paa";
-[MF_ITEMS_REPAIR_KIT, "Repair Kit", _repair, "Land_SuitCase_F",_icon,2] call mf_inventory_create;
+_icon = "client\icons\ToolKit.paa";
+[MF_ITEMS_REPAIR_KIT, "Kit de reparation", _repair, "Land_Tyre_F",_icon,2] call mf_inventory_create;
 
 mf_nearest_vehicle = {
 	private ["_types", "_obj", "_dist"];
@@ -42,7 +42,7 @@ mf_remote_repair = {
 // Setting up repairing action.
 mf_repair_can_repair = [_path, "can_repair.sqf"] call mf_compile;
 private ["_label1", "_execute1", "_condition1", "_action1"];
-_label1 = format["<img image='%1'/> Repair Vehicle", _icon];
+_label1 = format["<img image='%1'/> Reparer Vehicule", _icon];
 _execute1 = {MF_ITEMS_REPAIR_KIT call mf_inventory_use};
 _condition1 = "[] call mf_repair_can_repair == ''";
 _action1 = [_label1, _execute1, [], 1, false, false, "", _condition1];

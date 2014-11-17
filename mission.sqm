@@ -147,7 +147,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item1
 				{
@@ -157,7 +157,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item2
 				{
@@ -167,7 +167,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item3
 				{
@@ -177,7 +177,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item4
 				{
@@ -187,7 +187,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item5
 				{
@@ -197,7 +197,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item6
 				{
@@ -207,7 +207,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item7
 				{
@@ -217,7 +217,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item8
 				{
@@ -227,7 +227,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item9
 				{
@@ -237,7 +237,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item10
 				{
@@ -247,7 +247,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item11
 				{
@@ -257,7 +257,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item12
 				{
@@ -267,7 +267,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item13
 				{
@@ -277,7 +277,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item14
 				{
@@ -287,7 +287,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item15
 				{
@@ -297,7 +297,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item16
 				{
@@ -307,7 +307,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item17
 				{
@@ -317,7 +317,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item18
 				{
@@ -327,7 +327,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item19
 				{
@@ -337,7 +337,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item20
 				{
@@ -347,7 +347,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item21
 				{
@@ -357,7 +357,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item22
 				{
@@ -367,7 +367,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item23
 				{
@@ -377,7 +377,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item24
 				{
@@ -387,7 +387,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item25
 				{
@@ -397,7 +397,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item26
 				{
@@ -407,7 +407,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item27
 				{
@@ -417,7 +417,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item28
 				{
@@ -427,7 +427,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item29
 				{
@@ -437,7 +437,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item30
 				{
@@ -447,7 +447,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item31
 				{
@@ -457,7 +457,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item32
 				{
@@ -467,7 +467,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item33
 				{
@@ -477,7 +477,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item34
 				{
@@ -487,7 +487,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item35
 				{
@@ -497,7 +497,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item36
 				{
@@ -507,7 +507,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item37
 				{
@@ -517,7 +517,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item38
 				{
@@ -527,7 +527,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item39
 				{
@@ -537,7 +537,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item40
 				{
@@ -547,7 +547,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item41
 				{
@@ -557,7 +557,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item42
 				{
@@ -567,7 +567,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item43
 				{
@@ -577,7 +577,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item44
 				{
@@ -587,7 +587,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item45
 				{
@@ -597,7 +597,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item46
 				{
@@ -607,7 +607,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item47
 				{
@@ -617,7 +617,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 			};
 		};
@@ -636,7 +636,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item1
 				{
@@ -646,7 +646,7 @@ class Mission
 					vehicle="O_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item2
 				{
@@ -656,7 +656,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item3
 				{
@@ -666,7 +666,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item4
 				{
@@ -676,7 +676,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item5
 				{
@@ -686,7 +686,7 @@ class Mission
 					vehicle="O_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item6
 				{
@@ -696,7 +696,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item7
 				{
@@ -706,7 +706,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item8
 				{
@@ -716,7 +716,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item9
 				{
@@ -726,7 +726,7 @@ class Mission
 					vehicle="O_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item10
 				{
@@ -736,7 +736,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item11
 				{
@@ -746,7 +746,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item12
 				{
@@ -756,7 +756,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item13
 				{
@@ -766,7 +766,7 @@ class Mission
 					vehicle="O_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item14
 				{
@@ -776,7 +776,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item15
 				{
@@ -786,7 +786,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item16
 				{
@@ -796,7 +796,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item17
 				{
@@ -806,7 +806,7 @@ class Mission
 					vehicle="O_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item18
 				{
@@ -816,7 +816,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item19
 				{
@@ -826,7 +826,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item20
 				{
@@ -836,7 +836,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item21
 				{
@@ -846,7 +846,7 @@ class Mission
 					vehicle="O_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item22
 				{
@@ -856,7 +856,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item23
 				{
@@ -866,7 +866,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item24
 				{
@@ -876,7 +876,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item25
 				{
@@ -886,7 +886,7 @@ class Mission
 					vehicle="O_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item26
 				{
@@ -896,7 +896,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item27
 				{
@@ -906,7 +906,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item28
 				{
@@ -916,7 +916,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item29
 				{
@@ -926,7 +926,7 @@ class Mission
 					vehicle="O_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item30
 				{
@@ -936,7 +936,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item31
 				{
@@ -946,7 +946,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item32
 				{
@@ -956,7 +956,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item33
 				{
@@ -966,7 +966,7 @@ class Mission
 					vehicle="O_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item34
 				{
@@ -976,7 +976,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item35
 				{
@@ -986,7 +986,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item36
 				{
@@ -996,7 +996,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item37
 				{
@@ -1006,7 +1006,7 @@ class Mission
 					vehicle="O_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item38
 				{
@@ -1016,7 +1016,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item39
 				{
@@ -1026,7 +1026,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item40
 				{
@@ -1036,7 +1036,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item41
 				{
@@ -1046,7 +1046,7 @@ class Mission
 					vehicle="O_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item42
 				{
@@ -1056,7 +1056,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item43
 				{
@@ -1066,7 +1066,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item44
 				{
@@ -1076,7 +1076,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item45
 				{
@@ -1086,7 +1086,7 @@ class Mission
 					vehicle="O_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item46
 				{
@@ -1096,7 +1096,7 @@ class Mission
 					vehicle="O_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item47
 				{
@@ -1106,7 +1106,7 @@ class Mission
 					vehicle="O_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 			};
 		};
@@ -1125,7 +1125,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item1
 				{
@@ -1135,7 +1135,7 @@ class Mission
 					vehicle="I_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item2
 				{
@@ -1145,7 +1145,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item3
 				{
@@ -1155,7 +1155,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item4
 				{
@@ -1165,7 +1165,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item5
 				{
@@ -1175,7 +1175,7 @@ class Mission
 					vehicle="I_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item6
 				{
@@ -1185,7 +1185,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item7
 				{
@@ -1195,7 +1195,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item8
 				{
@@ -1205,7 +1205,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item9
 				{
@@ -1215,7 +1215,7 @@ class Mission
 					vehicle="I_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item10
 				{
@@ -1225,7 +1225,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item11
 				{
@@ -1235,7 +1235,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item12
 				{
@@ -1245,7 +1245,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item13
 				{
@@ -1255,7 +1255,7 @@ class Mission
 					vehicle="I_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item14
 				{
@@ -1265,7 +1265,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item15
 				{
@@ -1275,7 +1275,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item16
 				{
@@ -1285,7 +1285,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item17
 				{
@@ -1295,7 +1295,7 @@ class Mission
 					vehicle="I_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item18
 				{
@@ -1305,7 +1305,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item19
 				{
@@ -1315,7 +1315,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item20
 				{
@@ -1325,7 +1325,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item21
 				{
@@ -1335,7 +1335,7 @@ class Mission
 					vehicle="I_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item22
 				{
@@ -1345,7 +1345,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item23
 				{
@@ -1355,7 +1355,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item24
 				{
@@ -1365,7 +1365,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item25
 				{
@@ -1375,7 +1375,7 @@ class Mission
 					vehicle="I_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item26
 				{
@@ -1385,7 +1385,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item27
 				{
@@ -1395,7 +1395,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item28
 				{
@@ -1405,7 +1405,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item29
 				{
@@ -1415,7 +1415,7 @@ class Mission
 					vehicle="I_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item30
 				{
@@ -1425,7 +1425,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item31
 				{
@@ -1435,7 +1435,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item32
 				{
@@ -1445,7 +1445,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item33
 				{
@@ -1455,7 +1455,7 @@ class Mission
 					vehicle="I_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item34
 				{
@@ -1465,7 +1465,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item35
 				{
@@ -1475,7 +1475,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item36
 				{
@@ -1485,7 +1485,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item37
 				{
@@ -1495,7 +1495,7 @@ class Mission
 					vehicle="I_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item38
 				{
@@ -1505,7 +1505,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item39
 				{
@@ -1515,7 +1515,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item40
 				{
@@ -1525,7 +1525,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item41
 				{
@@ -1535,7 +1535,7 @@ class Mission
 					vehicle="I_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Ghillie";
+					description="Sniper";
 				};
 				class Item42
 				{
@@ -1545,7 +1545,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item43
 				{
@@ -1555,7 +1555,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 				class Item44
 				{
@@ -1565,7 +1565,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item45
 				{
@@ -1575,7 +1575,7 @@ class Mission
 					vehicle="I_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Diver";
+					description="Plongeur";
 				};
 				class Item46
 				{
@@ -1585,7 +1585,7 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Medic";
+					description="Infirmier";
 				};
 				class Item47
 				{
@@ -1595,7 +1595,7 @@ class Mission
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="Engineer";
+					description="Ingenieur";
 				};
 			};
 		};

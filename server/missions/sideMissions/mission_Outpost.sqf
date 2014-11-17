@@ -13,7 +13,7 @@ private ["_nbUnits", "_outpost", "_objects"];
 
 _setupVars =
 {
-	_missionType = "Enemy Outpost";
+	_missionType = "Base Ennemie";
 	_locationsArray = MissionSpawnMarkers;
 	_nbUnits = AI_GROUP_MEDIUM;
 };

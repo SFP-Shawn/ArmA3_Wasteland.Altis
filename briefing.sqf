@@ -7,9 +7,49 @@ if (!hasInterface) exitWith {};
 
 waitUntil {!isNull player};
 
-player createDiarySubject ["infos", "Infos and Help"];
+player createDiarySubject ["infos", "Infos et Aide"];
 player createDiarySubject ["changelog", "Changelog"];
-player createDiarySubject ["credits", "Credits"];
+player createDiarySubject ["credits", "Remerciments"];
+
+player createDiaryRecord
+	["changelog",
+		[
+			"v1.1 By Shawn",
+				"
+
+				<br/>
+					-----------Au 16/11/14 :----------<br/>
+					<br/>
+					*[Traduction] de l'aide <br/>
+					*[Traduction] de l'amelioration <br/>
+					*[Traduction] de l'info de mission <br/>
+					*[Traduction] de Script<br/>
+					*[Traduction] Menu<br/>
+					*[Ajout] addon Arma Serveur Monitor<br/> 
+					*[Correction] Menu molette<br/>
+					*[Ajout] Panneau admin<br/>
+					*[Traduction] message serveur<br/>
+					*[Traduction] 25% de la mission<br/>
+					*[Correction] scripts divers<br/>
+					*[Ajout] addon Méteo + reglages <br/>
+					*[Ajout] du Menu admin de Maxou<br/>
+					*[Ajout] de la possibilite de denoncer un tueur d'equipe<br/>
+					*[Ajout] de la fatigue + boisson energisante <br/>
+					*[Ajout] Creation du logo wasteland par JP et Will! Merci<br/>
+					*[Ajout] addon R3F Armes 3.2<br/>	exclusivité grace a Ludo<br/>
+					*[Ajout] addon R3F Uniformes 3.2 <br/>exclusivité grace a Ludo<br/>
+					*[Ajout] addon TaskForceRadio 0.9.2<br/>
+					*[Ajout] addon Femal3<br/>
+					*[Ajout] addon female<br/>
+					*[Ajout] addon Ivory mig 29<br/>
+					*[Ajout] addon R3F AIComtarget<br/>
+					*[Ajout] addon ASM<br/>
+					*[Correction] script de saut (Bigjump)
+					*[Correction] script tueur d'equipe
+				<br/>
+				"
+		]
+	];
 
 player createDiaryRecord ["changelog",
 [
@@ -218,6 +258,10 @@ player createDiaryRecord ["credits",
 [
 "Credits",
 "
+<br/>
+<br/><font size='16' color='#BBBBBB'>Developpement par l'equipe SFP:</font>
+<br/>	* [SFP] Shawn
+<br/>
 <br/><font size='16' color='#BBBBBB'>Developed by A3Wasteland.com:</font>
 <br/>	* AgentRev (TeamPlayerGaming)
 <br/>	* JoSchaap (GoT/Tweakers.net)
@@ -269,58 +313,75 @@ player createDiaryRecord ["credits",
 <br/>	* Tonic (BIS forums)
 <br/>	* wiking.at (A3W forums)
 <br/>
-<br/><font size='16'>Thanks A LOT to everyone involved for the help and inspiration!</font>
+<br/><font size='16'>"Merci Beaucoup a tout le monde implique pour l'aide et l'inspiration!"</font>
 "
 ]];
 
 
 player createDiaryRecord ["infos",
 [
-"Hints and Tips",
-"
-<br/><font size='18'>A3Wasteland</font>
-<br/>
-<br/>* At the start of the game, spread out and find supplies before worrying about where to establish a meeting place or a base, supplies are important and very valuable.
-<br/>
-<br/>* When picking a base location, it is best advised to pick a place that is out of the way and not so obvious such as airports, cities, map-bound bases, etc. remember, players randomly spawn in and around towns and could even spawn inside your base should you set it up in a town.
-<br/>
-<br/>* If you spawn in an area with no vehicles or supplies in the immediate area, DO NOT just click respawn from the pause menu, chances are if you search an area of a few hundred meters, you will find something.
-<br/>
-<br/>* Always be on the lookout for nightvision. they are located in the ammo crates, and there are pairs scattered throughout vehicles. You can also purchase them from the gunstores. Nighttime without them SUCKS, and if you have them, you can conduct stealth raids on enemy bases under the cover of complete darkness.
-<br/>
-<br/>* When you set up a base, never leave your supplies unguarded, one guard will suffice, but it is recommended you have at least 2, maybe 3 guards at base at all times.
-<br/>
-<br/>* There are very aggressive AI characters that spawn with most missions and will protect the mission objectives with deadly force, be aware of them.
-"
-]];
+			"Trucs / Astuces",
+			"
+			<br/><br/>
+			<img image='client\icons\Wastelandlogo.paa'/><br/>
+			<br/><br/>
+			SFP Wasteland Revolution
+			<br/>
+			* Au debut de la mission, dispersez vous et trouvez des reserves avant de vous soucier de trouver une base ou un endroit de rassemblement. Les reserves sont importantes et precieuses.<br/>
+			<br/>
+			* Pour le choix d'une base, preferez un endroit en dehors et pas evident tel que les aeroports, villes, etc. Souvenez vous que les joueurs apparaissent au hasard, dans et en dehors des villes, et pourraient apparaître sur votre base dans une ville.<br/>
+			<br/>
+			* Si vous apparaissez dans une zone sans vehicules ou reserves aux alentours, NE cliquez PAS sur le bouton REAPPARITION du menu pause, il y a de fortes chances que vous trouviez quelque chose dans un rayon d'une centaine de metres.<br/>
+			<br/>
+			* Soyez attentifs aux lunettes de vision nocturne. Elles sont situees dans les caisses de munitions. Il y a aussi qui sont dans quelques vehicules. Vous pouvez egalement en acheter au magasin d'armes. La nuit sans ces lunettes CRAINT, et si vous en avez, vous pouvez mener des attaques furtives en base ennemie sous couverture dans le noir complet.<br/>
+			<br/>
+			* Lorsque vous etablissez une base, ne laissez jamais vos reserves sans surveillance. Un garde suffit mais 2 gardes sont recommandes, voire 3 en permanence.<br/>
+			<br/>
+			* L'helicoptere de la mission apparait avec peu de carburant, donc attention au tableau de bord de l'helico sauf si vous etes armes et voulez le proteger, ou ayez du carburant qui peut être trouve dans les stations, ou des bidons fendus autour des villes.<br/>
+			<br/>
+			* Prenez garde aux personnages AI qui sont tres agressifs et apparaissent avec beaucoup de missions pour lesquelles ils seront pret a tout.<br/>
+			<br/>
+			"
+	]
+							];
 
 player createDiaryRecord ["infos",
 [
-"About Wasteland",
-"
-<br/>Wasteland is a team versus team versus team sandbox survival experience. The objective of this mission is to rally your faction, scavenge supplies, weapons, and vehicles, and destroy the other factions. It is survival at its best! Keep in mind this is a work in progress, please direct your reports to http://forums.a3wasteland.com/
-<br/>
-<br/>FAQ:
-<br/>
-<br/>Q. What am I supposed to do here?
-<br/>A. See the above description
-<br/>
-<br/>Q. Where can I get a gun?
-<br/>A. Weapons are found in one of three places, first in ammo crates that come as rewards from missions, inside and outside buildings, and second, in the gear section of the vehicles, which also randomly spawn around the map. The last place to find a gun would be at the gunshops located throughout the map. You can also find them on dead players whose bodies have not yet been looted.
-<br/>
-<br/>Q. What are the blue circles on the map?
-<br/>A. The circles represent town limits. If friendly soldiers are in a town, you can spawn there from the re-spawn menu; however if there is an enemy presence, you will not be able to spawn there.
-<br/>
-<br/>Q. Why is it so dark, I cant see.
-<br/>A. The server has a day/night cycle just like in the real world, and as such, night time is a factor in your survival. It is recommended that you find sources of light or use your Nightvision Goggles as the darkness sets in.
-<br/>
-<br/>Q. Is it ok for me to shoot my team mates?
-<br/>A. If you are member of BLUFOR or OPFOR teams, then you are NOT allowed to shoot or steal items and vehicles from other players. If you play as Independent, you are free to engage anyone as well as team up with anyone you want.
-<br/>
-<br/>Q. Whats with the canisters, baskets and big bags?
-<br/>A. This game has a food and water system that you must stay on top of if you hope to survive. You can collect food and water from food sacks and wells, or baskets and plastic canisters dropped by dead players. Food and water will also randomly spawn around the map.
-<br/>
-<br/>Q. I saw someone breaking a rule, what do I do?
-<br/>A. Simply go into global chat and get the attention of one of the admins or visit our forums, and make a report if the offense is serious.
-"
-]];
+			"A propos de Wasteland",
+			"
+			<br/>
+			Wasteland est une mission ou la survie est a son meilleur niveau! N'oubliez pas que ce jeu est en constante evolution, merci de signaler les bugs a Shawn en MP sur www.sfpteam.fr.<br/>
+			<br/>
+			"
+		]
+	];
+
+player createDiaryRecord ["infos",
+	[	
+			"FAQ",
+			"
+			<br/>
+			Q. Que dois je faire?<br/>
+			R. Voir la description ci-dessus<br/>
+			<br/>
+			Q. Ou puis je acheter une arme?<br/>
+			R. Les armes sont disponibles a trois endroits : dans les caisses de munitions qui sont des recompenses de missions, dans ou en dehors de batiments, et deuxiemement, dans l'inventaire des vehicules, qui apparait au hasard sur la carte. Enfin vous pourrez en trouver aux magasins d'armes un peu partout sur la carte. Ou encore sur le corps de joueurs morts pas encore depouilles.<br/>
+			<br/>
+			Q. Que signifient les cercles gris sur la carte?<br/>
+			R. Les cercles representent les frontières des villes. Si des soldats amis sont en ville, vous pouvez apparaitre la a partir du menu re-spawn; toutefois si des ennemis sont presents vous ne pourrez pas y apparaitre.<br/>
+			<br/>
+			Q. Pourquoi fait-il aussi sombre? Je ne vois rien.<br/>
+			R. Le serveur a un cycle jour/nuit comme en vrai, donc la nuit est un facteur dans votre survie. Il est recommande de trouver des sources de lumiere ou d'utiliser les lunettes de vision nocturne.<br/>
+			<br/>
+			Q. Puis je tirer sur des membres de mon unite?<br/>
+			R. Si vous etes membre des unites BLUFOR ou OPFOR, vous NE pouvez PAS tuer, voler des equipements ou vehicules des autres joueurs. Si vous jouez en independant, vous etes libre d'engager qui vous voulez et vous alliez avec qui vous le souhaitez.<br/>
+			<br/>
+			Q. Qu'est ce que sont les buckets, paniers et grands sacs?<br/>
+			R. Cette mission a un système d'eau et de nourriture que vous devez avoir pour pouvoir survivre. Vous pouvez trouver de l'eau et de la nourriture grace aux bidons en plastique, sacs de nourriture, puits, ou des paniers a côte de joueurs morts. De l'eau et de la nourriture apparaissent au hasard sur la carte.<br/>
+			<br/>
+			Q. J'ai vu quelqu'un enfreindre une regle, que dois je faire?<br/>
+			R. Signalez le sur le chat global a un des admins, ou sur www.sfpteam.fr.<br/>
+			<br/>
+			"
+		]
+	];

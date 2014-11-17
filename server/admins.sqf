@@ -16,10 +16,10 @@ else
 	/*******************************************************
 	 Player UID examples :
 
-		"1234567887654321", // Meatwad
-		"8765432112345678", // Master Shake
-		"1234876543211234", // Frylock
-		"1337133713371337"  // Carl
+		"1234567887654321", // Shawn	
+		"8765432112345678", // Will
+		"1234876543211234", // Caladrius
+		"1337133713371337"  // Ludo
 
 	 Important: The player UID must always be placed between
 	            double quotes (") and all lines need to have
@@ -29,19 +29,24 @@ else
 	// Low Administrators: manage & spectate players, remove hacked vehicles
 	lowAdmins = compileFinal str
 	[
-		// Put player UIDs here
+		"76561198024678737", // Mike 
+		"76561198052244305" // Diego
 	];
 
 	// High Administrators: manage & spectate players, remove hacked vehicles, show player tags
 	highAdmins = compileFinal str
 	[
-		// Put player UIDs here
+		
 	];
 
 	// Server Owners: access to everything, including god mode, money, guns, and vehicles
 	serverOwners = compileFinal str
 	[
-		// Put player UIDs here
+		"76561198024430025",  // Shawn
+		"76561198098760949",  // Caladrius 
+		"76561198011499021",  // Ludo
+		"76561198118266703",  // Maxime
+		"76561198027053448"   // Will
 	];
 
 	/********************************************************/

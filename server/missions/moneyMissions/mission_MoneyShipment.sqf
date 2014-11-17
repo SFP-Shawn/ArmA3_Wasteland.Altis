@@ -24,7 +24,7 @@ _setupVars =
 	[
 		// Easy
 		[
-			"Small Money Shipment", // Marker text
+			"Jaques Chirac se barre avec la caisse de la mairie de Paris", // Marker text
 			25000, // Money
 			[
 				[ // NATO convoy
@@ -43,7 +43,7 @@ _setupVars =
 		],
 		// Medium
 		[
-			"Medium Money Shipment", // Marker text
+			"Nicolas Sarkozy se barre avec les caisses de retraites", // Marker text
 			50000, // Money
 			[
 				[ // NATO convoy
@@ -65,7 +65,7 @@ _setupVars =
 		],
 		// Hard
 		[
-			"Large Money Shipment", // Marker text
+			"Holland se barre avec nos Impots", // Marker text
 			75000, // Money
 			[
 				[ // NATO convoy
@@ -87,7 +87,7 @@ _setupVars =
 		],
 		// Extreme
 		[
-			"Heavy Money Shipment", // Marker text
+			"Le Quatar vide les reserves d'or mondial", // Marker text
 			100000, // Money
 			[
 				[ // NATO convoy

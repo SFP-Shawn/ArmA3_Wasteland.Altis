@@ -27,7 +27,7 @@ _hasFailed = {
 		case (player distance _warchest > 5): {_text = ERR_TOO_FAR_AWAY};
 		case (doCancelAction): {doCancelAction = false; _text = ERR_CANCELLED};
 		default {
-			_text = format["Warchest %1%2 Packed", round(_progress*100), "%"];
+			_text = format["Coffre fort %1%2 Rangé", round(_progress*100), "%"];
 			_failed = false;
 		};
 	};
@@ -41,5 +41,5 @@ MUTEX_UNLOCK;
 if (_success) then {
 	deleteVehicle _warchest;
 	[MF_ITEMS_WARCHEST, 1] call mf_inventory_add;
-	["You successfully packed the Warchest", 5] call mf_notify_client;
+	["Ton coffre fort est dans ton inventaire", 5] call mf_notify_client;
 };

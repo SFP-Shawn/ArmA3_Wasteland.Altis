@@ -7,6 +7,8 @@
 //@file Created: 21/7/2013 16:00
 //@file Description: Initialize Camo Net
 //@file Argument: the path to the directory holding this file.
+
+
 private ["_path","_ground_type", "_icon", "_unpack", "_pack"];
 _path = _this;
 
@@ -27,10 +29,10 @@ mf_items_camo_net_nearest = {
 	_camonet;
 } call mf_compile;
 
-[MF_ITEMS_CAMO_NET, "Camo Net", _unpack, _ground_type, _icon, 1] call mf_inventory_create;
+[MF_ITEMS_CAMO_NET, "Tente de camouflage", _unpack, _ground_type, _icon, 1] call mf_inventory_create;
 
 private ["_label", "_condition", "_action"];
-_label = format["<img image='%1' /> Pack up Camouflage Netting", _icon];
+_label = format["<img image='%1' /> Emballer filets de camouflage", _icon];
 _condition = "'' == [] call mf_items_camo_net_can_pack;";
 _action = [_label, _pack, [], 1, true, false, "", _condition];
 ["camonet-pack", _action] call mf_player_actions_set;

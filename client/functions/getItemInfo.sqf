@@ -113,7 +113,7 @@ if (!isNil "_itemEntry") then
 					case (_itemType isKindOf "B_Parachute"):
 					{
 						//_name = getText (_weapon >> "displayName");
-						_description = "The perfect companion for wanna-be pilots!<br/>One-time use.";
+						_description = "Le compagnon ideal pour les pilotes en herbe<br/>One-time use.";
 					};
 					case (["_UAV_01_backpack_", _itemType] call fn_findString != -1):
 					{
@@ -129,7 +129,7 @@ if (!isNil "_itemEntry") then
 						_weapon = configFile >> "CfgVehicles" >> _uavType;
 
 						//_name = getText (_weapon >> "displayName") + " UAV";
-						_description = "Remote-controlled quadcopter to spy on your neighbors, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
+						_description = "Drone telecomande, permet d'espioner tes ennemis, pre-emballes dans un sac a dos . <br/> UAV terminal vendu separement. Age 8+";
 					};
 					default
 					{
@@ -145,17 +145,17 @@ if (!isNil "_itemEntry") then
 					case (["Default Uniform", _itemText] call fn_findString != -1):
 					{
 						//_name = _itemText;
-						_description = "In case you lost your clothes";
+						_description = "Si tu as perdu tes vetements";
 					};
 					case (["_GhillieSuit", _itemType] call fn_findString != -1):
 					{
 						//_name = _itemText;
-						_description = "Disguise as a swamp monster";
+						_description = "Degise toi en monstre des marais";
 					};
 					case (["_Wetsuit", _itemType] call fn_findString != -1):
 					{
 						//_name = _itemText;
-						_description = "Allows faster swimming";
+						_description = "Permet de nager plus vite";
 					};
 					default
 					{
@@ -174,7 +174,7 @@ if (!isNil "_itemEntry") then
 			{
 				if (["_Rebreather", _itemType] call fn_findString != -1) then
 				{
-					_description = "Underwater oxygen supply";
+					_description = "Bouteille de plongée";
 				};
 
 				if (_description != "") then
@@ -199,7 +199,7 @@ if (!isNil "_itemEntry") then
 
 				if (_itemType == "G_Diving") then
 				{
-					_description = "Increases underwater visibility";
+					_description = "Augmente la visibilite sous l'eau";
 				};
 			};
 			default
@@ -209,7 +209,7 @@ if (!isNil "_itemEntry") then
 					case (["_UavTerminal", _itemType] call fn_findString != -1):
 					{
 						//_name = getText (_weapon >> "displayName");
-						_description = getText (_weapon >> "descriptionShort") + "<br/>Assign to GPS slot.";
+						_description = getText (_weapon >> "descriptionShort") + "<br/>Remplace l'emplacement du GPS.";
 					};
 				};
 			};

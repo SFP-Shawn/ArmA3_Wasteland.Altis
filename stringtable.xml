@@ -3,114 +3,146 @@
 	<Package name="General">
 		<Key ID="STR_WL_Gen_TeamWEST">
 			<English>BLUFOR</English>
+			<French>BLUFOR</French>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamWEST_2">
 			<English>BLUFOR</English>
+			<French>BLUFOR</French>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamEAST">
 			<English>OPFOR</English>
+			<French>OPFOR</French>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamEAST_2">
 			<English>OPFOR</English>
+			<French>OPFOR</French>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamGUER">
 			<English>Independent</English>
+			<French>Independant</French>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamGUER_2">
 			<English>Independent</English>
+			<French>Independant</French>
 		</Key>
 	</Package>
 	<Package name="TeamLock">
 		<Key ID="STR_WL_Punish_Teamkiller">
 			<English>You have been punished for teamkilling twice during this server session. Your inventory has been wiped, and you are now locked to the Independent side.</English>
+			<French>Tu as ete puni pour avoir tue un coequipier deux fois pendant cette session de serveur. Ton inventaire a ete efface et tu es maintenant oblige de jouer Independant.</French>
 		</Key>
 		<Key ID="STR_WL_Loading_Teamkiller">
 			<English>You are restricted to the Independent side, due to having done 2 or more teamkills during this server session.</English>
+			<French>Tu es restreint au cote Independant pour avoir tue 2 fois ou plus un coequpier durant cette sessions de serveur.</French>
 		</Key>
 		<Key ID="STR_WL_Loading_Teamswitched">
 			<English>You have played as %1 for too long and cannot switch to the other team. You can still play as Independent. (or if online, ask an admin to unlock you)</English>
+			<French>Tu as joue en tant que % 1 trop longtemps et tu ne peux donc pas passer dans l'autre equipe. Tu peux toujours jouer comme Independant (ou si un admin est en ligne demande lui de te debloquer)</French>
 		</Key>
 	</Package>
 	<Package name="WelcomeMessage">
 		<Key ID="STR_WL_WelcomeToWasteland">
 			<English>&lt;t color='#FF8000' size='2.5' &gt;A3Wasteland Altis v1.0b &lt;/t&gt;</English>
+			<French>&lt;t color='#FF8000' size='2.5' &gt;Modifie par SFP Team, Wasteland Altis Version: 1.0 &lt;/t&gt;</French>
 		</Key>
 		<Key ID="STR_WL_YouAreInTeam">
 			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</English>
+			<French>&lt;t color='#FFFFFF' size='1.5' &gt;* Tu es dans l'equipe &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt;.&lt;br/&gt;* Tuer ou voler un %4 de ton equipe est INTERDIT  &lt;t color="#aa0000"&gt;.&lt;/t&gt;&lt;br/&gt;* Pas de discussion dans le canal global&lt;br/&gt;</French>
 		</Key>
 		<Key ID="STR_WL_YouAreInFFA">
 			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</English>
+			<French>&lt;t color='#FFFFFF' size='1.5' &gt;* Tu es dans l'equipe &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt;.&lt;br/&gt;* Tu es &lt;t color="#00aa00"&gt;autorise a tuer tout le monde.&lt;/t&gt;&lt;br/&gt;* Pas de discussion dans le canal global&lt;br/&gt;</French>
 		</Key>
 		<Key ID="STR_WL_MapMoreInfo">
 			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions at http://forums.a3wasteland.com/ &lt;br/&gt;Server restarts are done at the admin's discretion.&lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;For more info please see the map&lt;br/&gt;</English>
+			<French>&lt;t color='#FFFFFF' size='1.5' &gt;Indique les bugs/problemes a Shawn en MP sur http://www.sfpteam.fr &lt;br/&gt;Le serveur redemarre par les commandes de l'admin.&lt;br/&gt;Pour plus d'informations stp regarde la carte&lt;br/&gt;&lt;br/&gt;&lt;/t&gt;</French>
 			<!-- &lt;br/&gt;&lt;/t&gt;&lt;t size='1.3'&gt;[Update X]&lt;/t&gt;&lt;br/&gt; -->
 		</Key>
 	</Package>
 	<Package name="TeamKillWarningMessage">
 		<Key ID="STR_TK_MESSAGE">
 			<English>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as teamkiller and you will get kicked.</English>
+			<French>&lt;t size='2' color='#ff0000'&gt;Tuer un membre de l'equipe est contre les regles !&lt;/t&gt;&lt;br/&gt;Si c'etait une erreur, alors tu dois t'expliquer et presenter tes excuses, sinon ils vont te marquer comme tueur d'equipier et tu seras ejecte.</French>
 		</Key>
 	</Package>
 	<Package name="Diary">
 		<Key ID="STR_WL_Diary_RulesContent">
 			<English>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</English>
+			<French>&lt;br/&gt;    1 Garder un langage correct. Si tu as un problème avec un autre joueur , tu dois le signaler ou l ignorer&lt;br/&gt;    2. Pas de tchat en canal global. Utilise les autres canaux ou Teamspeak !.&lt;br/&gt;    3. Tuer un membre de ton equipe quand tu es en BLUFOR ou OPFOR est interdit et passible de sanctions. Joue en Independant si tu veux etre libre de tuer tout le monde.&lt;br/&gt;    4. Reveler des informations au sujet de ton ancienne equipe aux autres equipes n'est pas fair-play et pas apprecie&lt;br/&gt;    5. Ne pas exploiter R3F ou d'autres add-ons ou tu seras banni.&lt;br/&gt;    6. Utiliser ou spammer des commandes personnalisees entrainera un Ban definitif</French>
 		</Key>
 	</Package>
 	<Package name="ShopDescriptions">
 		<Key ID="STR_WL_ShopDescriptions_Water">
 			<English>Greece is a hot place! Drink plenty!</English>
+			<French>La Grece est un endroit tres chaud! Bois beaucoup!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Camo">
 			<English>An improvised roof, 4 sticks and a blanket!</English>
+			<French>Un toit improvise, 4 batons et une couverture!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_CanFood">
 			<English>The Greek wastelands may get you hungry!</English>
+			<French>Les friches grecques peuvent te donner faim!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_RepairKit">
 			<English>With this kit, you won't need an engineer!</English>
+			<French>Avec ce kit, pas besoin d un technicien!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_MedKit">
 			<English>With this kit, you won't need a medic!</English>
+			<French>Avec ce kit, pas besoin d'un medecin!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelFull">
 			<English>25 litres of pure unleaded fuel!</English>
+			<French>25 litres de pur carburant !</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
 			<English>Empty fuel can. You can refill it!</English>
+			<French>Jerrican vide . Tu peux le remplir!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
 			<English>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</English>
+			<French>Choisis ton lieu d'apparition. Avertissement: ce lieu ne garantit pas qu'il soit securise.</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
 			<English>Go forth and steal fuel from vehicles!</English>
+			<French>Avance et vole du carburant dans les véhicules!</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
 			<English>Allows you to sprint continuously for 5 minutes.</English>
+			<French>Te permet de sprinter en continu pendant 5 minutes.</French>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Warchest">
 			<English>A safe to store your team's money.</English>
+			<French>Un coffre-fort pour stocker l'argent de ton équipe.</French>
 		</Key>
 	</Package>
 	<Package name="Dialogs">
 		<Key ID="STR_WL_dialog_TeamkillText">
 			<English>You have been teamkilled by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident, forgive him, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not apologize, punish him.</English>
+			<French>Tu t'es fait tuer par un membre %2 de ton equipe %1.&lt;br/&gt;&lt;br/&gt;Si c'etait un accident alors pardonne lui, sinon il doit expliquer ses actions .&lt;br/&gt;&lt;br/&gt;Si le joueur n'explique pas pourquoi tu peux sélectionner la repression ou le denoncer!</French>
 		</Key>
 	</Package>
 	<Package name="Errors">
 		<Key ID="STR_WL_Errors_InProgress">
 			<English>You are already performing another action!</English>
+			<French>Tu es deja en train d'effectuer une autre action!</French>
 		</Key>
 		<Key ID="STR_WL_Errors_InVehicle">
 			<English>You are currently busy!</English>
+			<French>Tu es deja occupe!</French>
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconActive">
 			<English>You already have an active spawn beacon!</English>
+			<French>Tu es deja reapparu a ta balise!</French>
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconInVehicle">
 			<English>You cannot enter a vehicle while placing a spawn beacon!</English>
+			<French>Tu ne peux pas entrer dans un véhicule tout en plaçant une balise de réapparition!</French>
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconTooMany">
 			<English>You cannot take more spawn beacons!</English>
+			<French>Tu ne peux pas prendre plus de balise de reapparition!</French>
 		</Key>
 	</Package>
 </Project>

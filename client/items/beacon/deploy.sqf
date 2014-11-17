@@ -21,7 +21,7 @@ _hasFailed = {
 		case (doCancelAction) :{doCancelAction = false; _text = ERR_CANCELLED;};
 		case (vehicle player != player): {_text = ERR_IN_VEHICLE};
 		default {
-			_text = format["Spawn Beacon %1%2 Deployed", round(_progress*100), "%"];
+			_text = format["Balise de reapparition %1%2 Deposé", round(_progress*100), "%"];
 			_failed = false;
 		};
 	};

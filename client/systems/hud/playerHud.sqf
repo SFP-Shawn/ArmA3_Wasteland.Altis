@@ -60,26 +60,26 @@ _displayTerritoryActivity =
 				_territoryCaptureCountdown = (_territoryCaptureCountdown - _seconds) / 60;
 				_minutes = _territoryCaptureCountdown % 60;
 
-				_territoryActionText = format["Capturing territory in about <t font='%1'>%2 minutes</t>", _boldFont, _minutes + 1];
+				_territoryActionText = format["Capture du territoire dans environ <t font='%1'>%2 minutes</t>", _boldFont, _minutes + 1];
 			}
 			else
 			{
 				if (_territoryCaptureCountdown < 5) then
 				{
-					_territoryActionText = "Territory transition in progress...";
+					_territoryActionText = "Capture du terrotoire en progression...";
 				}
 				else
 				{
-					_territoryActionText = format["Capturing territory in <t font='%1'>%2 seconds</t>", _boldFont, _territoryCaptureCountdown];
+					_territoryActionText = format["Capture du territoire dans <t font='%1'>%2 seconds</t>", _boldFont, _territoryCaptureCountdown];
 				};
 			};
 		};
-		case "BLOCKEDATTACKER": { _territoryActionText = "Territory capture blocked" };
-		case "BLOCKEDDEFENDER": { _territoryActionText = "Territory under attack" };
-		case "RESET":           { _territoryActionText = "Territory capture started" };
+		case "BLOCKEDATTACKER": { _territoryActionText = "Attaque du territoire capture" };
+		case "BLOCKEDDEFENDER": { _territoryActionText = "Defense du territoire capture" };
+		case "RESET":           { _territoryActionText = "Debut de la capture du territoire" };
 	};
 
-	_activityMessage = format ["Location: <t font='%1'>%2</t><br/>%3", _boldFont, _descriptiveName, _territoryActionText];
+	_activityMessage = format ["Lieu: <t font='%1'>%2</t><br/>%3", _boldFont, _descriptiveName, _territoryActionText];
 	_topLeftIconText = format ["<img size='%1' image='territory\client\icons\territory_cap_white.paa'/>", 3 * (0.55 / (getResolution select 5))];
 
 	[_topLeftIconText, _activityMessage]
@@ -137,12 +137,12 @@ while {true} do
 	_str = if (_unlimitedStamina) then {
 		""
 	} else {
-		format ["%1 <img size='0.7' image='client\icons\running_man.paa'/>", 100 - ceil((getFatigue player) * 100)];
+		format ["%1 <img size='1.2' image='client\icons\running_man.paa'/>", 100 - ceil((getFatigue player) * 100)];
 	};
-	_str = _str + format ["<br/>%1 <img size='0.7' image='client\icons\money.paa'/>", [player getVariable ["cmoney", 0]] call fn_numbersText];
-	_str = _str + format ["<br/>%1 <img size='0.7' image='client\icons\water.paa'/>", ceil (thirstLevel max 0)];
-	_str = _str + format ["<br/>%1 <img size='0.7' image='client\icons\food.paa'/>", ceil (hungerLevel max 0)];
-	_str = _str + format ["<br/><t color='%1'>%2</t> <img size='0.7' image='client\icons\health.paa'/>", _healthTextColor, _health];
+	_str = _str + format ["<br/>%1 <img size='1.2' image='client\icons\money.paa'/>", [player getVariable ["cmoney", 0]] call fn_numbersText];
+	_str = _str + format ["<br/>%1 <img size='1.2' image='client\icons\water.paa'/>", ceil (thirstLevel max 0)];
+	_str = _str + format ["<br/>%1 <img size='1.2' image='client\icons\food.paa'/>", ceil (hungerLevel max 0)];
+	_str = _str + format ["<br/><t color='%1'>%2</t> <img size='1.2' image='client\icons\health.paa'/>", _healthTextColor, _health];
 
 	_vitals ctrlShow alive player;
 	_vitals ctrlSetStructuredText parseText _str;
@@ -153,7 +153,7 @@ while {true} do
 
 	if (isStreamFriendlyUIEnabled) then
 	{
-		_tempString = format ["<t color='#A0FFFFFF'>A3Wasteland %1<br/>www.a3wasteland.com</t>", getText (configFile >> "CfgWorlds" >> worldName >> "description")];
+		_tempString = format ["<t color='#A0FFFFFF'>SFP Wasteland Revolution %1<br/>www.sfpteam.fr</t>", getText (configFile >> "CfgWorlds" >> worldName >> "description")];
 		_yOffset = 0.28;
 
 		_hudVehicle ctrlSetStructuredText parseText _tempString;
@@ -286,12 +286,12 @@ while {true} do
 					_globalVoiceTimestamp = diag_tickTime;
 					_globalVoiceTimer = 0;
 
-					_msgTitle = format ["Warning %1 of %2", _globalVoiceWarning, _globalVoiceMaxWarns];
+					_msgTitle = format ["ATTENTION %1 of %2", _globalVoiceWarning, _globalVoiceMaxWarns];
 
 					if (_globalVoiceWarning < _globalVoiceMaxWarns) then
 					{
 						uiNamespace setVariable ["BIS_fnc_guiMessage_status", false];
-						["Please stop using the global voice channel, or you will be killed and crashed.", _msgTitle] spawn BIS_fnc_guiMessage;
+						["Arrete d'utiliser le canal de voix globale! Ou tu sera tue et je ferai crash ton jeu.", _msgTitle] spawn BIS_fnc_guiMessage;
 					}
 					else
 					{

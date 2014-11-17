@@ -20,7 +20,7 @@ _hasFailed = {
 		case (doCancelAction): {doCancelAction = false; _text = ERR_CANCELLED;};
 		default {
 			_failed = false;
-			_text = format["Drinking %1%2 Complete", round(100*_progress), "%"];
+			_text = format["Boire %1%2", round(100*_progress), "%"];
 		};
 	};
 	[_failed, _text];

@@ -6,6 +6,24 @@
 //	@file Author: [404] Deadbeat, [404] Costlyy, AgentRev
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
+//  @Modification Shawn le 12/11/2014
+
+private["_dikCode"];
+
+_dikCode = _this select 1;
+
+//--- Touche "P" --> Baisser le son
+if(_dikCode == 25) then    
+   {
+			if (isnil "baisseson") then {baisseson = 1;};
+			if (baisseson == 1) then 
+			{
+				hint "Ton son d'environement à été baissé, les canaux vocaux reste inchangés!"; baisseson = 0; 2 fadeSound 0.05;
+			}else
+			{
+				hint "Ton son à été réinitialisé à sa valeur d'origine."; baisseson = 1; 2 fadeSound 1;
+			};
+   };
 
 private ["_key", "_shift", "_ctrl", "_alt", "_handled"];
 

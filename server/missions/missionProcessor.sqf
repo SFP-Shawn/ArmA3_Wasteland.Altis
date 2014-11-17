@@ -18,7 +18,7 @@ _aiGroup = grpNull;
 
 if (!isNil "_setupVars") then { call _setupVars };
 
-diag_log format ["WASTELAND SERVER - %1 Mission%2 started: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
+diag_log format ["SFP WASTELAND REVOLUTION - %1 Mission%2 started: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
 
 _missionTimeout = MISSION_PROC_TIMEOUT;
 
@@ -53,7 +53,7 @@ if (isNil "_missionPicture") then { _missionPicture = "" };
 ]
 call missionHint;
 
-diag_log format ["WASTELAND SERVER - %1 Mission%2 waiting to be finished: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
+diag_log format ["SFP WASTELAND REVOLUTION - %1 Mission%2 waiting to be finished: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
 
 _failed = false;
 _startTime = diag_tickTime;
@@ -105,7 +105,7 @@ if (_failed) then
 	]
 	call missionHint;
 
-	diag_log format ["WASTELAND SERVER - %1 Mission%2 failed: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
+	diag_log format ["SFP WASTELAND REVOLUTION - %1 Mission%2 failed: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
 }
 else
 {
@@ -150,7 +150,7 @@ else
 	]
 	call missionHint;
 
-	diag_log format ["WASTELAND SERVER - %1 Mission%2 complete: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
+	diag_log format ["SFP WASTELAND REVOLUTION - %1 Mission%2 complete: %3", MISSION_PROC_TYPE_NAME, _controllerSuffix, _missionType];
 };
 
 deleteGroup _aiGroup;

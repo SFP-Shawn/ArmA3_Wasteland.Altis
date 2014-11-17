@@ -21,9 +21,4 @@ switch (true) do
 	default                                                      { _return = false };
 };
 
-if (_return && _weapon == "Laserdesignator" && {{_x == "Laserbatteries"} count magazines _player == 0}) then
-{
-	[_player, "Laserbatteries"] call fn_forceAddItem;
-};
-
 _return

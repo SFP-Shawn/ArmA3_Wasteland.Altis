@@ -49,7 +49,7 @@ class PlayersMenu
 		class DialogTitleText: w_RscText
 		{
 			idc = -1;
-			text = "Player Menu";
+			text = "Menu Joueur";
 
 			font = "PuristaMedium";
 			sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";

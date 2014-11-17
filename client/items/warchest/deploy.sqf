@@ -22,7 +22,7 @@ _checks = {
 		case (player distance _position > 3): {_text = ERR_TOO_FAR_AWAY};
 		case (doCancelAction): {_text = ERR_CANCELLED; doCancelAction = false;};
 		default {
-			_text = format["Warchest %1%2 Deployed", round(100 * _progress), "%"];
+			_text = format["Coffre fort %1%2 Monté", round(100 * _progress), "%"];
 			_failed = false;
 		};
 	};
@@ -37,6 +37,6 @@ if (_success) then {
 	_warchest setVariable ['side', playerSide, true];
 	_warchest setVariable ["R3F_LOG_disabled", true];
 	_warchest setVariable ["a3w_warchest", true, true];
-	["Warchest Deployed!", 5] call mf_notify_client;
+	["Coffre fort !", 5] call mf_notify_client;
 };
 _success;

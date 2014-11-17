@@ -71,9 +71,9 @@ mf_remote_syphon = {
 } call mf_compile;
 
 
-[MF_ITEMS_JERRYCAN_EMPTY, "Empty Jerrycan", _refill, "Land_CanisterFuel_F", _icon, _max] call mf_inventory_create;
-[MF_ITEMS_JERRYCAN_FULL, "Full Jerrycan", _refuel, "Land_CanisterFuel_F", _icon, _max] call mf_inventory_create;
-[MF_ITEMS_SYPHON_HOSE, "Syphon Hose", _syphon, "Land_CanisterOil_F", _icon, MF_ITEMS_SYHON_HOSE_MAX] call mf_inventory_create;
+[MF_ITEMS_JERRYCAN_EMPTY, "Jerrycan Vide", _refill, "Land_CanisterFuel_F", _icon, _max] call mf_inventory_create;
+[MF_ITEMS_JERRYCAN_FULL, "Jerrycan Plein", _refuel, "Land_CanisterFuel_F", _icon, _max] call mf_inventory_create;
+[MF_ITEMS_SYPHON_HOSE, "Tuyau de siphonnage", _syphon, "Land_CanisterOil_F", _icon, MF_ITEMS_SYHON_HOSE_MAX] call mf_inventory_create;
 
 mf_jerrycan_can_refill = [_path, "can_refill.sqf"] call mf_compile;
 mf_jerrycan_can_refuel = [_path, "can_refuel.sqf"] call mf_compile;

@@ -6,7 +6,7 @@ private ["_path"];
 _path = _this;
 
 MF_ITEMS_WARCHEST = "warchest";
-MF_ITEMS_WARCHEST_OBJECT_TYPE = "Land_CashDesk_F";
+MF_ITEMS_WARCHEST_OBJECT_TYPE = "Box_IND_Support_F";
 MF_ITEMS_WARCHEST_ACCESS_RANGE = 4;
 MF_ITEMS_WARCHEST_DEPLOY_DURATION = 30;
 MF_ITEMS_WARCHEST_PACK_DURATION = 30;
@@ -28,19 +28,19 @@ mf_items_warchest_withdraw = [_path, "withdraw.sqf"] call mf_compile;
 mf_items_warchest_deposit = [_path, "deposit.sqf"] call mf_compile;
 
 private ["_icon", "_condition", "_action"];
-_icon = "/client/icons/breifcase.paa";
-[MF_ITEMS_WARCHEST, "Warchest", mf_items_warchest_deploy, "Land_SuitCase_F", _icon, 1] call mf_inventory_create;
+_icon = "client\icons\coffrefort.paa";
+[MF_ITEMS_WARCHEST, "Coffre fort", mf_items_warchest_deploy, "Box_IND_Support_F", _icon, 1] call mf_inventory_create;
 
 private ["_condition", "_action"];
 _condition = "'' == [] call mf_items_warchest_can_access;";
-_action = ["<img image='client\icons\money.paa'/> Access Warchest", mf_items_warchest_access, nil, 2, true, false, "", _condition];
+_action = ["<img image='client\icons\money.paa'/> Ouvrir coffre fort", mf_items_warchest_access, nil, 2, true, false, "", _condition];
 ["warchest-access", _action] call mf_player_actions_set;
 
 _condition = "'' == [] call mf_items_warchest_can_pack;";
-_action = ["Pack Warchest", mf_items_warchest_pack, nil, 1, true, false, "", _condition];
+_action = ["Ranger Coffre fort", mf_items_warchest_pack, nil, 1, true, false, "", _condition];
 ["warchest-pack", _action] call mf_player_actions_set;
 
 _condition = "'' == [] call mf_items_warchest_can_hack;";
-_action = ["Hack Warchest", mf_items_warchest_hack, nil, 2, true, false, "", _condition];
+_action = ["Pirater Coffre fort", mf_items_warchest_hack, nil, 2, true, false, "", _condition];
 ["warchest-hack", _action] call mf_player_actions_set;
 
