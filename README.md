@@ -1,17 +1,22 @@
 *Wasteland.Altis* by Team Wasteland!
+Clone et Françisation By SFP Team 
 ===================
 
-ArmA 3 Wasteland is a harsh survival sandbox mission where 2 teams and independent players fight for survival.
+Wasteland est une mission ou la survie est a son meilleur niveau! N'oubliez pas que ce jeu est en constante evolution.
 
 
-The mission is not ready yet, so for now it's just a placeholder :)
+* Équipe SFP Team :  
+
+       [SFP] Shawn
 
 
-*Team Wasteland* collaborators:
+* Équipe Wasteland * collaborateurs :
 
-       GoT - JoSchaap
+       GOT - JoSchaap
        TPG - AgentRev
            - MercyfulFate
-       KoS - His_Shadow
-       KoS - Bewilderbeest
+       Kos - His_Shadow
+       Kos - Bewilderbeest
        404 - Del1te
+ 
+
