@@ -9,49 +9,56 @@ waitUntil {!isNull player};
 
 player createDiarySubject ["infos", "Infos et Aide"];
 player createDiarySubject ["changelog", "Changelog"];
-player createDiarySubject ["credits", "Remerciments"];
+player createDiarySubject ["credits", "Remerciements"];
 
 player createDiaryRecord
 	["changelog",
 		[
 			"v1.1 By Shawn",
 				"
-
-				<br/>
-					-----------Au 16/11/14 :----------<br/>
+					<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
+					Mise à jour au 18/11/2014 :<br/>
 					<br/>
-					*[Traduction] de l'aide <br/>
-					*[Traduction] de l'amelioration <br/>
-					*[Traduction] de l'info de mission <br/>
-					*[Traduction] de Script<br/>
-					*[Traduction] Menu<br/>
-					*[Ajout] addon Arma Serveur Monitor<br/> 
+					*[Traduction] De l'aide <br/>
+					*[Traduction] De l'amélioration <br/>
+					*[Traduction] De l'info de mission <br/>
+					*[Traduction] Des Scripts missions contre IA (à refaire)<br/>
+					*[Traduction] Des Menus<br/>
+					*[Ajout] Addon Arma Serveur Monitor<br/> 
 					*[Correction] Menu molette<br/>
-					*[Ajout] Panneau admin<br/>
-					*[Traduction] message serveur<br/>
-					*[Traduction] 25% de la mission<br/>
+					*[Ajout] Panneau d'admin<br/>
+					*[Traduction] De 30% des message du serveur<br/>
+					*[Traduction] De 30% de la mission<br/>
 					*[Correction] scripts divers<br/>
-					*[Ajout] addon Méteo + reglages <br/>
-					*[Ajout] du Menu admin de Maxou<br/>
-					*[Ajout] de la possibilite de denoncer un tueur d'equipe<br/>
-					*[Ajout] de la fatigue + boisson energisante <br/>
+					*[Ajout] Addon Méteo + réglages <br/>
+					*[Ajout] De la possibilité de denoncer un tueur d'equipe<br/>
+					*[Ajout] De la fatigue + boisson energisante <br/>
 					*[Ajout] Creation du logo wasteland par JP et Will! Merci<br/>
-					*[Ajout] addon R3F Armes 3.2<br/>	exclusivité grace a Ludo<br/>
-					*[Ajout] addon R3F Uniformes 3.2 <br/>exclusivité grace a Ludo<br/>
-					*[Ajout] addon TaskForceRadio 0.9.2<br/>
-					*[Ajout] addon Femal3<br/>
-					*[Ajout] addon female<br/>
-					*[Ajout] addon Ivory mig 29<br/>
-					*[Ajout] addon R3F AIComtarget<br/>
-					*[Ajout] addon ASM<br/>
-					*[Correction] script de saut (Bigjump)
-					*[Correction] script tueur d'equipe
+					*[Ajout] Addon R3F Armes 3.2 (exclusivité grace à Ludo)<br/>
+					*[Ajout] Addon R3F Uniformes 3.2 (exclusivité grace à Ludo)<br/>
+					*[Ajout] Addon TaskForceRadio 0.9.2<br/>
+					*[Ajout] Addon Femal3<br/>
+					*[Ajout] Addon female<br/>
+					*[Ajout] Addon Ivory mig 29<br/>
+					*[Ajout] Addon R3F AIComtarget<br/>
+					*[Correction] Script de saut (Bigjump)<br/>
+					*[Correction] Script tueur d'équipe<br/>
+					*[Correction] Sac à dos radio qui se remplacé<br/>
+					*[Correction] Les Chargeur de l'inventaire ne sont pas supprimés lors de la vente d'armes<br/>
+					*[Correction] Erreurs aléatoires dans fn_LSgetBuildingstospawnLoot.sqf<br/>
+					*[Correction] Correction d'un problème avec des fusées éclairantes pour certains hélicos<br/>
+					*[Ajout] Addon F/A-18 Super Hornet<br/>
+					*[Ajout] Addon JackFrench (Skin des vehicules armée française)
+					*[A venir] L'achat des addons ajouter apres les tests en debug ;)<br/>
+				<br/>	
 				<br/>
 				"
 		]
 	];
 
-player createDiaryRecord ["changelog",
+player createDiaryRecord 	["changelog",
 [
 "v1.0b",
 "
@@ -73,7 +80,8 @@ player createDiaryRecord ["changelog",
 <br/> [Fixed] Clipped numbers on scoreboard
 <br/> [Fixed] Minor other optimizations and fixes
 "
-]];
+]
+							];
 
 player createDiaryRecord ["changelog",
 [
@@ -256,9 +264,13 @@ player createDiaryRecord ["changelog",
 
 player createDiaryRecord ["credits",
 [
-"Credits",
+"Remerciements",
 "
-<br/>
+
+<br/><br/>
+<img image='Wasteland.paa'/><br/>
+<br/><br/>
+
 <br/><font size='16' color='#BBBBBB'>Developpement par l'equipe SFP:</font>
 <br/>	* [SFP] Shawn
 <br/>
@@ -313,7 +325,7 @@ player createDiaryRecord ["credits",
 <br/>	* Tonic (BIS forums)
 <br/>	* wiking.at (A3W forums)
 <br/>
-<br/><font size='16'>"Merci Beaucoup a tout le monde implique pour l'aide et l'inspiration!"</font>
+<br/><font size='16'>Merci a tous pour le devellopement, l'inspiration ainsi que l'aide!</font>
 "
 ]];
 
@@ -323,7 +335,7 @@ player createDiaryRecord ["infos",
 			"Trucs / Astuces",
 			"
 			<br/><br/>
-			<img image='client\icons\Wastelandlogo.paa'/><br/>
+			<img image='Wasteland.paa'/><br/>
 			<br/><br/>
 			SFP Wasteland Revolution
 			<br/>

@@ -23,5 +23,5 @@ _msgBox = [localize "STR_WL_Punish_Teamkiller"] spawn BIS_fnc_guiMessage;
 _time = diag_tickTime;
 
 waitUntil {scriptDone _msgBox || diag_tickTime - _time >= 20};
-endMission "LOSER";
+endMission "Perdu";
 waitUntil {uiNamespace setVariable ["BIS_fnc_guiMessage_status", false]; closeDialog 0; false};

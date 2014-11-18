@@ -160,9 +160,7 @@ _unit spawn
 				}
 				else
 				{
-					// Turn off engine
-					_unit action ["EngineOff", _veh];
-					_veh engineOn false;
+						_veh engineOn false;
 				};
 			};
 		}
@@ -170,8 +168,6 @@ _unit spawn
 		{
 			if (driver _veh == _unit) then
 			{
-				// Turn off engine
-				_unit action ["EngineOff", _veh];
 				_veh engineOn false;
 			};
 		};

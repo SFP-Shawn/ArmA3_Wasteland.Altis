@@ -46,7 +46,7 @@ call compile preprocessFileLineNumbers "client\functions\clientCompile.sqf";
 //Stop people being civ's.
 if !(playerSide in [BLUFOR,OPFOR,INDEPENDENT]) exitWith
 {
-	endMission "LOSER";
+	endMission "Perdu";
 };
 
 //Setup player events.
