@@ -70,7 +70,7 @@ _displayTerritoryActivity =
 				}
 				else
 				{
-					_territoryActionText = format["Capture du territoire dans <t font='%1'>%2 seconds</t>", _boldFont, _territoryCaptureCountdown];
+					_territoryActionText = format["Capture du territoire dans <t font='%1'>%2 secondes</t>", _boldFont, _territoryCaptureCountdown];
 				};
 			};
 		};
@@ -301,7 +301,7 @@ while {true} do
 							setPlayerRespawnTime 1e11;
 							player setDamage 1;
 							uiNamespace setVariable ["BIS_fnc_guiMessage_status", false];
-							_msgBox = ["You have exceeded the tolerance limit for using the global voice channel. Goodbye.", _this] spawn BIS_fnc_guiMessage;
+							_msgBox = ["Tu as depasse la tolerance acceptable Bye Bye.", _this] spawn BIS_fnc_guiMessage;
 							_time = diag_tickTime;
 							waitUntil {scriptDone _msgBox || diag_tickTime - _time >= 5};
 							preprocessFile "client\functions\quit.sqf"; // CTD

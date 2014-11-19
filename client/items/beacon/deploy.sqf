@@ -9,8 +9,8 @@
 //@file Argument: [player, player, _action, []] the standard "called by an action" values
 
 #define ANIM "AinvPknlMstpSlayWrflDnon_medic"
-#define ERR_CANCELLED "Action Cancelled"
-#define ERR_IN_VEHICLE "Action Failed! You can't do this in a vehicle"
+#define ERR_CANCELLED "Action Annulé"
+#define ERR_IN_VEHICLE "Échec de l'action! Vous ne pouvez pas le faire dans un véhicule"
 private ["_hasFailed", "_success","_pos","_uid","_beacon"];
 _hasFailed = {
 	private ["_progress", "_failed", "_text"];
@@ -21,7 +21,7 @@ _hasFailed = {
 		case (doCancelAction) :{doCancelAction = false; _text = ERR_CANCELLED;};
 		case (vehicle player != player): {_text = ERR_IN_VEHICLE};
 		default {
-			_text = format["Balise de reapparition %1%2 Deposé", round(_progress*100), "%"];
+			_text = format["Déploiement de la balise de réapparition %1%2", round(_progress*100), "%"];
 			_failed = false;
 		};
 	};
@@ -50,7 +50,7 @@ if (_success) then {
 
 	pvar_spawn_beacons pushBack _beacon;
 	publicVariable "pvar_spawn_beacons";
-	["You placed the Spawn Beacon successfully!", 5] call mf_notify_client;
+	["La balise de réapparition a bien été deployée!", 5] call mf_notify_client;
 };
 _success;
 

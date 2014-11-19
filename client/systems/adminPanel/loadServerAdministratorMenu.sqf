@@ -18,14 +18,14 @@ if ([_uid, 3] call isAdmin) then {
 	_displayAdmin = uiNamespace getVariable "AdminMenu";
 	_adminSelect = _displayAdmin displayCtrl adminMenu_option;
 
-	_panelOptions = ["Player Management",
-					"Vehicle Management",
-					"Player Markers",
-					"Teleport",
-	                "Money",
-	                "Debug Menu",
-					"Object Search",
-	                "Toggle God-mode"
+	_panelOptions = ["Gestion des Joueurs",
+					"Gestion des Vehicules",
+					"Marqueur",
+					"Teleporter",
+	                "Argent",
+	                "Menu Boutiques",
+					"Rechercher objets",
+	                "Invinsible"
 	];
 
 	{

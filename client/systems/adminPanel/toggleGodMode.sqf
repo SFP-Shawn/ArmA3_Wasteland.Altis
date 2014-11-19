@@ -26,12 +26,12 @@ if ((getPlayerUID player) call isAdmin) then
 			};
 		};
 
-		hint "You are now invulnerable";
+		hint "Tu es maintenant invincible";
 	}
 	else
 	{
 		player allowDamage true;
 		player setVariable ["isAdminInvulnerable", false, true];
-		hint "You are no longer invulnerable";
+		hint "Tu n'es plus invincible";
 	};
 };

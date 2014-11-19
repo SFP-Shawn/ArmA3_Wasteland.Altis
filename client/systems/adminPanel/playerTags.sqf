@@ -15,12 +15,12 @@ if (_uid call isAdmin) then
 	if (!adminPlayerMarkers) then
 	{
 		adminPlayerMarkers = true;
-		hint "Player Markers ON";
+		hint "Marqueur active";
 	}
 	else
 	{
 		adminPlayerMarkers = false;
-		hint "Player Markers OFF";
+		hint "Marqueur desactive";
 	};
 
 	setGroupIconsVisible [true, true];

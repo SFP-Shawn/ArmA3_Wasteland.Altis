@@ -9,11 +9,11 @@
 //@file Argument: [player, player, _action, []] the standard "called by an action" values
 
 #define ANIM "AinvPknlMstpSlayWrflDnon_medic"
-#define ERR_IN_VEHICLE "Stealing Spawn Beacon Failed! You can't do this in a vehicle"
-#define ERR_NOT_OPP_SIDE "Stealing Spawn Beacon Failed! Someone else finished stealing it first."
-#define ERR_TOO_FAR_AWAY "Stealing Spawn Beacon Failed! You are too far away to do that."
-#define ERR_CANCELLED "Stealing Spawn Beacon Cancelled"
-#define ERR_SOMEONE_ELSE_TAKEN "Packing Spawn Beacon Failed! Someone else finished packing it up before you"
+#define ERR_IN_VEHICLE "Echec impossible de voler la balise de réapparition! Tu ne peux pas faire ça dans un véhicule."
+#define ERR_NOT_OPP_SIDE "Echec impossible de voler la balise de réapparition! Quelqu'un d'autre a terminé de voler avant toi."
+#define ERR_TOO_FAR_AWAY "Echec impossible de voler la balise de réapparition! Tu es trop loin."
+#define ERR_CANCELLED "Vole de la balise de réapparition annulé"
+#define ERR_SOMEONE_ELSE_TAKEN "Emballage de la balise de réapparition a échoué! Quelqu'un d'autre à terminé de l'emballer avant de toi."
 private ["_beacon", "_error", "_isIndie", "_ownerSide", "_ownerUID", "_hasFailed", "_success"];
 _beacon = [] call mf_items_spawn_beacon_nearest;
 _error = [_beacon] call mf_items_spawn_beacon_can_steal;
@@ -37,7 +37,7 @@ _hasFailed = {
 		case (player distance _beacon > 5): {_text = ERR_TOO_FAR_AWAY;};
 		case (doCancelAction): {doCancelAction = false; _text = ERR_CANCELLED;};
 		default {
-			_text = format["Stealing %1%2 Complete", round(_progress*100), "%"];
+			_text = format["Vole complèté dans %1%2", round(_progress*100), "%"];
 			_failed = false;
 		};
 	};
@@ -50,5 +50,5 @@ if (_success) then {
 	publicVariable "pvar_spawn_beacons";
 	deleteVehicle _beacon;
 	[MF_ITEMS_SPAWN_BEACON, 1] call mf_inventory_add;
-	["You have successfully stolen the Spawn Beacon",5] call mf_notify_client;
+	["Tu as bien reussi à voler la balise de réapparition",5] call mf_notify_client;
 };

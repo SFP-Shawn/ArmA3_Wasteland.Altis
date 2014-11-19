@@ -32,7 +32,7 @@ _hasFailed = {
 		case (player distance _beacon > 5): {_text = ERR_TOO_FAR_AWAY};
 		case (doCancelAction): {doCancelAction = false; _text = ERR_CANCELLED};
 		default {
-			_text = format["Spawn Beacon is %1%2 Packed", round(_progress*100), "%"];
+			_text = format["Emballage de la balise de réapparition dans %1%2", round(_progress*100), "%"];
 			_failed = false;
 		};
 	};
@@ -46,5 +46,5 @@ if (_success) then {
 	publicVariable "pvar_spawn_beacons";
 	deleteVehicle _beacon;
 	[MF_ITEMS_SPAWN_BEACON, 1] call mf_inventory_add;
-	["You successfully packed the Spawn Beacon", 5] call mf_notify_client;
+	["Tu as fini d'emballer la balise de réapparition", 5] call mf_notify_client;
 };

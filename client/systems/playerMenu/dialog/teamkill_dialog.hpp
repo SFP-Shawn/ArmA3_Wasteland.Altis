@@ -74,17 +74,17 @@ class TeamkillDialog {
 			w = 0.16; h = 0.065;
 		};
 
-//		class AnnounceButton:w_RscButton {
-//			idc = tkDialogAnnounce;
-//			text = "Announce";
-//			// onButtonClick = "false call teamkillAction";
-//
-//			size = 0.031;
-//			color[] = {0.95, 0.95, 0.10, 1};
-//
-//			x = 0.505; y = 0.585;
-//			w = 0.16; h = 0.065;
-//		};
+		class AnnounceButton:w_RscButton {
+			idc = tkDialogAnnounce;
+			text = "Declarer";
+			// onButtonClick = "false call teamkillAction";
+
+			size = 0.031;
+			color[] = {0.95, 0.95, 0.10, 1};
+
+			x = 0.505; y = 0.585;
+			w = 0.16; h = 0.065;
+		};
 
 		class PunishButton:w_RscButton {
 			idc = tkDialogPunish;

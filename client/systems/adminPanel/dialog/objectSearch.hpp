@@ -1064,7 +1064,7 @@ class tw_RscButtonMenuOK
 		156
 	};
 	default = 1;
-	text = "OK";
+	text = "Valider";
 	soundPush[] =
 	{
 		"\A3\ui_f\data\sound\RscButtonMenuOK\soundPush",
@@ -1079,7 +1079,7 @@ class tw_RscButtonMenuCancel
 	{
 		"0x00050000 + 1"
 	};
-	text = "Cancel";
+	text = "Annuler";
 };
 class tw_RscControlsGroup
 {
@@ -1177,7 +1177,7 @@ class ObjectSearch
 		{
 			style = 1;
 			idc = -1;
-			text = "Find every instance of a given class within 1km";
+			text = "Trouver tous les vehicules d'une classe donnée à 1 km";
 			x = 0.1;
 			y = 0.12;
 			w = 0.8;
@@ -1212,7 +1212,7 @@ class ObjectSearch
 		class ObjectSearchEditBox: tw_RscEdit
 		{
 			idc = idc_objectSearchFindTexteditBox;
-			text = "LandVehicle";
+			text = "ClasseVehicle";
 			x = 12 * GUI_GRID_W + GUI_GRID_X;
 			y = 5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 17 * GUI_GRID_W;
@@ -1222,7 +1222,7 @@ class ObjectSearch
 		class ObjectSearchLabel: tw_RscText
 		{
 			idc = idc_objectSearchFindTextLabel;
-			text = "Object class";
+			text = "Classe Objet";
 			x = 5 * GUI_GRID_W + GUI_GRID_X;
 			y = 5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 6.5 * GUI_GRID_W;
@@ -1241,7 +1241,7 @@ class ObjectSearch
 		class ObjectSearchTeleportButton: tw_RscButton
 		{
 			idc = idc_objectSearchTeleportButton;
-			text = "Teleport";
+			text = "Teleporter";
 			onButtonClick = "[1] execVM 'client\systems\adminPanel\objectSearchInteraction.sqf'";
 			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
@@ -1251,7 +1251,7 @@ class ObjectSearch
 		class ObjectSearchClearMapButton: tw_RscButton
 		{
 			idc = idc_objectSearchCancelButton;
-			text = "Clear map";
+			text = "Nettoyer la map";
 			onButtonClick = "[2] execVM 'client\systems\adminPanel\objectSearchInteraction.sqf'";
 			x = 23.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
@@ -1261,7 +1261,7 @@ class ObjectSearch
 		class ObjectSearchCancelButton: tw_RscButton
 		{
 			idc = idc_objectSearchCancelButton;
-			text = "Cancel";
+			text = "Annuler";
 			onButtonClick = "closeDialog 0;";
 			x = 17.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;

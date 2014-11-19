@@ -29,7 +29,7 @@ _randomButton = _display displayCtrl respawn_Random_Button;
 _spawnButton = _display displayCtrl respawn_Spawn_Button;
 _spawnButton ctrlEnable false;
 
-_spawnButton ctrlSetText "Loading...";
+_spawnButton ctrlSetText "Chargement...";
 
 _locType = _display displayCtrl respawn_Locations_Type;
 _locList = _display displayCtrl respawn_Locations_List;
@@ -41,10 +41,10 @@ _side = switch (playerSide) do
 {
 	case BLUFOR: { "BLUFOR" };
 	case OPFOR:  { "OPFOR" };
-	default      { "Independent" };
+	default      { "Independant" };
 };
 
-_respawnText ctrlSetStructuredText parseText (format ["Welcome to Wasteland<br/>You are on %1. Please select a spawn point.", _side]);
+_respawnText ctrlSetStructuredText parseText (format ["bienvenue dans Wasteland revolution<br/>Tu es sur %1. Choisis ton point de reapparition.", _side]);
 respawnDialogActive = true;
 
 //buttonSetAction [respawn_Random_Button, format ["%1 [%2,0] execVM 'client\functions\spawnAction.sqf'", _disableAllButtons, respawn_Random_Button]];
@@ -242,7 +242,7 @@ _selLocChanged =
 
 				if (_enemyPlayers > _friendlyPlayers) then
 				{
-					_textStr = _textStr + "[<t color='#ff0000'>Blocked by enemy</t>] ";
+					_textStr = _textStr + "[<t color='#ff0000'>Bloque par un ennemi</t>] ";
 				}
 				else
 				{
@@ -258,19 +258,19 @@ _selLocChanged =
 			if (_friendlyPlayers > 0) then
 			{
 				if (_extraTextStr != "") then { _extraTextStr = _extraTextStr + ", " };
-				_extraTextStr = _extraTextStr + format ["<t color='#00ff00'>%1 friendly player(s)</t>", _friendlyPlayers];
+				_extraTextStr = _extraTextStr + format ["<t color='#00ff00'>%1 joueur(s) de ton equipe</t>", _friendlyPlayers];
 			};
 
 			if (_enemyPlayers > 0) then
 			{
 				if (_extraTextStr != "") then { _extraTextStr = _extraTextStr + ", " };
-				_extraTextStr = _extraTextStr + format ["<t color='#ff0000'>%1 enemy player(s)</t>", _enemyPlayers];
+				_extraTextStr = _extraTextStr + format ["<t color='#ff0000'>%1 joueur(s) ennemi</t>", _enemyPlayers];
 			};
 
 			if (_enemyNPCs > 0) then
 			{
 				if (_extraTextStr != "") then { _extraTextStr = _extraTextStr + ", " };
-				_extraTextStr = _extraTextStr + format ["<t color='#ff0000'>%1 enemy AI(s)</t>", _enemyNPCs];
+				_extraTextStr = _extraTextStr + format ["<t color='#ff0000'>%1 ennemi(s) AI</t>", _enemyNPCs];
 			};
 
 			_textStr = _textStr + _extraTextStr;
@@ -365,7 +365,7 @@ _locType ctrlAddEventHandler ["LBSelChanged",
 	_locList lbSetCurSel -1;
 
 	_spawnButton = _display displayCtrl respawn_Spawn_Button;
-	_spawnButton ctrlSetText "Loading...";
+	_spawnButton ctrlSetText "Chargement...";
 
 	uiNamespace setVariable ["RespawnSelectionDialog_updateLocs", true];
 }];
@@ -534,7 +534,7 @@ while {!isNull _display} do
 			};
 		};
 
-		_spawnButton ctrlSetText "Spawn";
+		_spawnButton ctrlSetText "Reapparition";
 	};
 
 	_oldLocArray = _newLocArray;

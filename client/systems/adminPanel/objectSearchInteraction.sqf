@@ -69,7 +69,7 @@ if (_uid call isAdmin) then
 			} forEach _objects;
 
 			if (count _objects > 0) then {
-				player globalChat format["Added %1 entries on the map", count _objects];
+				player globalChat format["Ajout de %1 sur la map", count _objects];
 			};
 		};
 		case OBJECT_SEARCH_ACTION_TELEPORT:
@@ -84,14 +84,14 @@ if (_uid call isAdmin) then
 			_safePos = [_objPos,2,20,0.2,0,1,0,[],[[0,0], [0,0]]] call BIS_fnc_findSafePos;
 			if (_safePos select 0 == 0 and _safePos select 1 == 0) exitWith {
 				// fsp is shit
-				player globalChat "BIS_fnc_findSafePos failed";
+				player globalChat "BIS_fnc_findSafePos echoue";
 			};
 
 			vehicle player setPos _safePos;
 			_newPlayerPos = getPosATL player;
 			_dir = [player, _objPos] call BIS_fnc_dirTo;
 			player setDir _dir;
-			player globalChat "Teleported to your object";
+			player globalChat "Teleporte a l'objet";
 		};
 		case OBJECT_SEARCH_ACTION_CLEAR_MAP:
 		{
@@ -100,7 +100,7 @@ if (_uid call isAdmin) then
 					deleteMarkerLocal _x;
 				} forEach objectSearchMapMarkers;
 				objectSearchMapMarkers = [];
-				player globalChat "Map cleared";
+				player globalChat "Map nettoye";
 			};
 		};
 	};

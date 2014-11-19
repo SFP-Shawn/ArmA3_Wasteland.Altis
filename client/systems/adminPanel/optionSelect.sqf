@@ -51,7 +51,7 @@ if (_uid call isAdmin) then
 						["A3W_teleport", "onMapSingleClick"] call BIS_fnc_removeStackedEventHandler;
 						true
 					}] call BIS_fnc_addStackedEventHandler;
-					hint "Click on map to teleport";
+					hint "Clique sur la map pour te teleporter";
 				};
 				case 4: //Money
 				{
