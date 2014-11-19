@@ -11,8 +11,7 @@
 
 #define ERR_NO_TARGET "Tu n'est pas assez près du filet de camouflage"
 #define ERR_TOO_FAR_AWAY "Tu es trop loin du filet de camouflage
-"
-#define ERR_ALREADY_HAVE "You can not carry any more Camouflage Netting"
+#define ERR_ALREADY_HAVE "Tu ne peux pas transporter plus de filet de camouflage"
 private ["_netting", "_error"];
 _netting = objNull;
 
