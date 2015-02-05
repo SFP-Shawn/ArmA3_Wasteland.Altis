@@ -286,7 +286,7 @@ ammoArray = compileFinal str
 	["7Rnd 127x99 PGM", "R3F_7Rnd_127x99_PGM", 150],
 	["7Rnd 127x99 PEI PGM", "R3F_7Rnd_127x99_PEI_PGM", 150],
 	["R3F_10Rnd_127x99_M107", "R3F_10Rnd_127x99_M107", 150],
-	//["R3F_10Rnd_127x99_PEI_M107", "R3F_10Rnd_127x99_PEI_M107", 150],
+	["R3F_10Rnd_127x99_PEI_M107", "R3F_10Rnd_127x99_PEI_M107", 150],
 	["200Rnd 556x45 MINIMI", "R3F_200Rnd_556x45_MINIMI", 40],
 	["100Rnd 762x51 MINIMI", "R3F_100Rnd_762x51_MINIMI", 50],
 	["20Rnd 762x51 HK417", "R3F_20Rnd_762x51_HK417", 50],
@@ -319,18 +319,18 @@ accessoriesArray = compileFinal str
 	["MRCO", "optic_MRCO", 100, "item"],
 	["ARCO", "optic_Arco", 125, "item"],
 	["RCO", "optic_Hamr", 150, "item"],
-	["DMS", "optic_DMS", 175, "item"],
-	["LRPS", "optic_LRPS", 175, "item"],
-	["SOS", "optic_SOS", 200, "item"],
-	["NVS", "optic_NVS", 500, "item"],
-	["TWS", "optic_tws", 5000, "item"],
-	["TWS MG", "optic_tws_mg", 6000, "item"],
-	["Nightstalker", "optic_Nightstalker", 7500, "item"],
+	["DMS", "optic_DMS", 1750, "item"],
+	["LRPS", "optic_LRPS", 1750, "item"],
+	["SOS", "optic_SOS", 2000, "item"],
+	["NVS", "optic_NVS", 5000, "item"],
+	["TWS", "optic_tws", 50000, "item"],
+	["TWS MG", "optic_tws_mg", 60000, "item"],
+	["Nightstalker", "optic_Nightstalker", 55000, "item"],
 	
 	//R3F Accesoires
 	["Silencieux FAMAS", "R3F_SILENCIEUX_FAMAS", 125, "item"],
 	["Silencieux FAMAS DES", "R3F_SILENCIEUX_FAMAS_DES", 125, "item"],
-	["Silencieux HK416", "R3F_SILENCIEUX_HK416", 125, "item"],
+	["Silencieux HK416", "R3F_SILENCIEUX_HK416", 125, "item"], 
 	["Silencieux HK416 DES", "R3F_SILENCIEUX_HK416_DES", 125, "item"],
 	["Silencieux FRF2", "R3F_SILENCIEUX_FRF2", 125, "item"],
 	["Silencieux FRF2 DES", "R3F_SILENCIEUX_FRF2_DES", 125, "item"],
@@ -859,7 +859,7 @@ helicoptersArray = compileFinal str
 	["PO-30 Orca (Black)", "O_Heli_Light_02_unarmed_F", 7000, "vehicle"], // Ka-60
 	["WY-55 Hellcat (Green)", "I_Heli_light_03_unarmed_F", 7000, "vehicle"], // AW159
 
-	["Mi-290 Taru (Crane) [DLC]", "O_Heli_Transport_04_F", 7500, "vehicle"], // CH-54
+	/*["Mi-290 Taru (Crane) [DLC]", "O_Heli_Transport_04_F", 7500, "vehicle"], // CH-54
 	["Mi-290 Taru (Box) [DLC]", "O_Heli_Transport_04_box_F", 8000, "vehicle"],
 	["Mi-290 Taru (Fuel) [DLC]", "O_Heli_Transport_04_fuel_F", 8500, "vehicle"],
 	["Mi-290 Taru (Bench) [DLC]", "O_Heli_Transport_04_bench_F", 9000, "vehicle"],
@@ -869,11 +869,11 @@ helicoptersArray = compileFinal str
 
 	["Mi-290 Taru (Medical) [DLC]", "O_Heli_Transport_04_medevac_F",12500, "vehicle"],
 	["Mi-290 Taru (Repair) [DLC]", "O_Heli_Transport_04_repair_F", 15000, "vehicle"],
-	["Mi-290 Taru (Ammo) [DLC]", "O_Heli_Transport_04_ammo_F", 25000, "vehicle"],
+	["Mi-290 Taru (Ammo) [DLC]", "O_Heli_Transport_04_ammo_F", 25000, "vehicle"],*/
 
 	["UH-80 Ghost Hawk (Black)", "B_Heli_Transport_01_F", 25000, "vehicle"], // UH-60 Stealth with 2 side miniguns
 	["UH-80 Ghost Hawk (Green)", "B_Heli_Transport_01_camo_F", 25000, "vehicle"], // UH-60 Stealth with 2 side miniguns (green camo)
-	["CH-67 Huron (Armed) [DLC]", "B_Heli_Transport_03_F", 30000, "vehicle"], // CH-47 with 2 side miniguns
+	//["CH-67 Huron (Armed) [DLC]", "B_Heli_Transport_03_F", 30000, "vehicle"], // CH-47 with 2 side miniguns
 	["AH-9 Pawnee", "B_Heli_Light_01_armed_F", 30000, "vehicle"], // Armed AH-6
 	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 30000, "vehicle"], // Armed Ka-60 with orca paintjob
 	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 35000, "vehicle"], // Armed Ka-60

@@ -85,6 +85,6 @@ class CfgSounds
 		// filename, volume, pitch
 		sound[] = {"client\sounds\intro.ogg", 1, 1};
 		// subtitle delay in seconds, subtitle text 
-		titles[] = {1, "*****Intro by SFP*****"};
+		titles[] = {1, "*****Intro in SFP*****"};
 	};
 };

@@ -3551,9 +3551,9 @@ class Intro
 		forecastWind=0.69999999;
 		forecastWaves=0.89999998;
 		forecastLightnings=0.30000001;
-		year=2035;
-		month=6;
-		hour=6;
+		year=2015;
+		month=1;
+		hour=7;
 		minute=0;
 		startFogDecay=0.0029333001;
 		forecastFogDecay=0.0039332998;
@@ -3580,8 +3580,8 @@ class OutroWin
 		forecastWind=0.69999999;
 		forecastWaves=0.89999998;
 		forecastLightnings=0.30000001;
-		year=2035;
-		month=6;
+		year=2015;
+		month=1;
 		hour=6;
 		minute=0;
 		startFogDecay=0.0029333001;
@@ -3609,9 +3609,9 @@ class OutroLoose
 		forecastWind=0.69999999;
 		forecastWaves=0.89999998;
 		forecastLightnings=0.30000001;
-		year=2035;
-		month=6;
-		hour=6;
+		year=2015;
+		month=1;
+		hour=4;
 		minute=0;
 		startFogDecay=0.0029333001;
 		forecastFogDecay=0.0039332998;

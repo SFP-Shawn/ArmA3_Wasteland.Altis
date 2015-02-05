@@ -14,12 +14,31 @@ player createDiarySubject ["credits", "Remerciements"];
 player createDiaryRecord
 	["changelog",
 		[
+		 "v1.11 By Shawn",
+		 "
+					<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
+					Mise à jour au 30/01/2014 :<br/>
+					<br/>
+					*[Modification] Jour, mois de la mission fixe <br/>
+					*[Modification] heures de demarrage semi-aleatoire <br/>
+					*[Modification] Armurerie suppression armes arma<br/> 
+					*[Modification] Concessionnaire suppression des hélicoptère DLC arma<br/> 
+					*[Modification] Mise a jour addon R3F Arme 3.3<br/> 
+					*[Modification] Mise a jour addon JackFrench<br/> 
+					*[Correction] Divers bug <br/>
+					<br/>
+		 "
+		]
+		
+		[
 			"v1.1 By Shawn",
 				"
 					<br/><br/>
 					<img image='Wasteland.paa'/><br/>
 					<br/><br/>
-					Mise à jour au 18/11/2014 :<br/>
+					Mise à jour au 19/11/2014 :<br/>
 					<br/>
 					*[Traduction] De l'aide <br/>
 					*[Traduction] De l'amélioration <br/>
@@ -52,7 +71,13 @@ player createDiaryRecord
 					*[Ajout] Addon F/A-18 Super Hornet<br/>
 					*[Ajout] Addon JackFrench (Skin des vehicules armée française)
 					*[A venir] L'achat des addons ajouter apres les tests en debug ;)<br/>
-				<br/>	
+					*[Modification]Amélioration de la sauvegarde des chargeurs entammés<br/>
+					*[Modification]Donner automatiquement les batteries du désignateurs laser<br/>
+					*[Suppression] actions Engine Off maintenant que la commande engine On est fixe<br/>
+					*[Modification] Divers . commentaires<br/>
+					*[Correction] script de chargement<br/>
+					*[Correction] Mise à jour Anti Hack<br/>
+					*[Ajout] Limite d'altitude de 250m prise de territoire<br/>	
 				<br/>
 				"
 		]
@@ -62,6 +87,9 @@ player createDiaryRecord 	["changelog",
 [
 "v1.0b",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] Helicopters DLC content
 <br/> [Added] Revamped respawn menu
 <br/> [Added] 250m altitude limit for territory capture
@@ -87,6 +115,9 @@ player createDiaryRecord ["changelog",
 [
 "v1.0",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] Custom scoreboard
 <br/> [Added] Mission and store vehicle saving
 <br/> [Added] Player markers on GPS and UAV Terminal
@@ -106,6 +137,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9h",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] Custom revive system based on Farooq's Revive
 <br/> [Added] Territory payroll at regular intervals
 <br/> [Added] Emergency eject and free parachutes (jump key)
@@ -166,6 +200,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9g",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] - Vehicle stores
 <br/> [Added] - New lootspawner by Na_Palm, stuff in ALL buildings
 <br/> [Added] - New jets and truck added in A3 v1.14
@@ -208,6 +245,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9f",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] - Money missions
 <br/> [Added] - Sell Crate Items option at stores when moving crate
 <br/> [Changed] - Reorganized loots for crates and trucks
@@ -223,6 +263,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9e",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] - Territory system
 <br/> [Added] - Jumping option (step over while running)
 <br/> [Added] - New weapons from v1.04 update
@@ -237,6 +280,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9d",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Added] - Store object purchases
 <br/> [Changed] - New UI by KoS
 "
@@ -246,6 +292,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9c",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Changed] - Instant money pickup and drop
 <br/> [Changed] - Increased plane and heli spawning odds
 <br/> [Fixed] - FPS fix improvements
@@ -257,6 +306,9 @@ player createDiaryRecord ["changelog",
 [
 "0.9b",
 "
+<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 <br/> [Initial release] - Welcome to Altis!
 "
 ]];
@@ -361,6 +413,9 @@ player createDiaryRecord ["infos",
 [
 			"A propos de Wasteland",
 			"
+			<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 			<br/>
 			Wasteland est une mission ou la survie est a son meilleur niveau! N'oubliez pas que ce jeu est en constante evolution, merci de signaler les bugs a Shawn en MP sur www.sfpteam.fr.<br/>
 			<br/>
@@ -372,6 +427,9 @@ player createDiaryRecord ["infos",
 	[	
 			"FAQ",
 			"
+			<br/><br/>
+					<img image='Wasteland.paa'/><br/>
+					<br/><br/>
 			<br/>
 			Q. Que dois je faire?<br/>
 			R. Voir la description ci-dessus<br/>
