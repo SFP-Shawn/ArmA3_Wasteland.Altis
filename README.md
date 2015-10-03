@@ -15,3 +15,5 @@ The mission is not ready yet, so for now it's just a placeholder :)
        KoS - His_Shadow
        KoS - Bewilderbeest
        404 - Del1te
+       
+       GGFR - Shawn (francisation)
